@@ -1,0 +1,31 @@
+.container{
+    padding-right: 0;
+    width: 95%;
+}
+.custom-container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+.contactus {
+  background-color: rgba(25, 42, 112, 0.566);
+  box-sizing: content-box;
+}
+.img-container {
+  margin:0;
+  padding : 0 !important;
+}
+
+.contact-us{
+    color: white;
+    background-image: linear-gradient(to right,#020024 0%, #222228 35%, #020024 100%);     
+}
+
+.contact-us-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    top: 30%;
+    position: relative;
+}

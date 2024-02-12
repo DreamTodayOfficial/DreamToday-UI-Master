@@ -1,0 +1,63 @@
+.footer-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px rgb(58, 56, 56);
+}
+
+.footer-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px;
+    overflow: hidden;
+}
+
+.icon{
+    width:30px;
+    height: 30px;
+    padding:0;
+    margin:10px;
+    transition: transform 0.3s ease;
+}
+
+.icon:hover{
+    transform: scale(1.5);
+}
+
+.first-icon{
+    width: 36px;
+    height: 36px;
+}
+
+ .icon .last-icon{
+    padding: 0;
+    margin-right: 0;
+ }
+
+.footer{
+    background-color: black;
+    font-family: "futura md bt";
+    padding: 30px;
+    
+}
+
+.footer-copyright{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.logo-image{
+    width:30px;
+    height: 30px;
+    margin-right:13px;
+    padding:0;
+    margin-bottom: 5px;;
+}
+
+a{
+    text-decoration: none;
+}

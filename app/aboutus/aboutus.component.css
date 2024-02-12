@@ -1,0 +1,16 @@
+.container{
+    padding-right: 0;
+    width: 95%;
+}
+.custom-container{
+    width: 95%;
+    padding-right: 0;
+}
+.contactus {
+  background-color: rgba(25, 42, 112, 0.566);
+  box-sizing: content-box;
+}
+.img-container {
+    margin:0;
+  padding : 0 !important; /* Remove padding on the right side */
+}

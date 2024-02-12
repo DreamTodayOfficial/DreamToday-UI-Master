@@ -1,0 +1,263 @@
+
+.line{
+    border: 1px solid white;
+    width: 100%;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.services{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  line-height: 1.5;
+  color: white;
+  margin: 30px;
+  padding-top:60px;
+}
+
+.services .container{
+  width:1100px;
+  margin:0 auto;
+  max-width: 100%;
+}
+
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card{
+  flex: 1 1 21rem;
+  margin:10px 20px;
+  background-color: transparent; /* Semi-transparent blue background */
+  backdrop-filter: blur(20px); /* Blur the background */
+  box-shadow: 0 0 15px rgba(19, 19, 19, 0.4);
+  padding:10px 20px;
+  flex-wrap: wrap;
+}
+
+.card h4{
+  font-size: 1.3rem;
+  text-transform: capitalize;
+  margin: 10px 0;
+  text-align: center;
+  font-weight: 900;
+}
+
+/* video background styles */
+.video-background {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.video-background video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.9;
+}
+
+.content {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-family: "futura md bt";
+}
+
+.content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  padding-bottom:80px;
+  text-shadow: 3px 3px rgb(12, 12, 12);
+}
+
+
+
+.header-text{
+  color: white;
+  font-family: "futura md bt";
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  text-align: center; /* Optionally center text horizontally */
+}
+
+.header-text h1{
+  font-size: 4rem;
+}
+
+.button-style{
+  border-radius: 50px; 
+  width:160px;
+  margin-top:20px;
+}
+
+.header-side-image-div{
+  position: absolute;
+  top: 30%;
+  left: 60%;
+}
+
+.header-side-image{
+  width:350px;
+  height:350px;
+}
+
+.split-bg{
+  background-image: linear-gradient(to right,#020024 0%, #222228 35%, #4c2669 100%);
+  height: 90vh;
+}
+
+
+@media screen and (max-width: 900px){
+  .split-bg{
+    background-image: linear-gradient(to right,#020024 0%, #222228 35%, #4c2669 100%);
+  } 
+  .button-style{
+    border-radius: 50px; 
+    width:160px;
+    margin-top:20px;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .split-bg{
+    background-image: linear-gradient(to bottom,#020024 0%, #222228 35%, #4c2669 100%);
+  }
+  .header-text{
+    color: white;
+    font-family: "futura md bt";
+    position: absolute;
+    top: 30%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    text-align: center; /* Optionally center text horizontally */
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .header-text h1{
+    font-size: 2.5rem;
+  }
+
+  .button-style{
+    border-radius: 50px; 
+    margin-top: 30px; 
+    padding:0px;
+    width:160px;
+  }
+
+  .content {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: "futura md bt";
+  }
+  
+  .content h1 {
+    font-size: 3rem;
+    margin-bottom: 40px;
+    margin-top: 10px;
+  }
+
+  .header-side-image-div{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+  }
+  
+  .header-side-image{
+    width:200px;
+    height:200px;
+  }
+
+}
+
+
+@media screen and (max-width: 400px){
+  .content {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-family: "futura md bt";
+  }
+
+  .button-style{
+    border-radius: 50px; 
+    margin-top: 20px; 
+    padding:0px;
+    width:160px;
+  }
+}
+
+
+
+/* Our Mission page styles */
+.our-mission{
+  background: linear-gradient(to top,#020024 0%, #19191a 25%, #9071bf 100%);
+  width: 100%;
+  height: 100%;
+ text-align: center;
+ padding: 60px;
+ margin: 0;
+ align-items: center;
+}
+
+.image-div{
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.graph-image{
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 5px black;
+    max-width: 100%; /* Ensure the image adjusts based on screen width */
+    height: auto;
+    margin: 0 20px;
+    transition: transform 0.5s ease;
+}
+
+.graph-image:hover{
+  transform: scale(0.9);
+}
+
+
+.our-mission-text{
+  text-align: center;
+  color: white;
+  font-family: "futura md bt";
+  flex-wrap: wrap;
+  padding:60px 0;
+}
+
+.our-mission-text h1{
+  text-shadow: 2px 2px#020024;
+  font-weight: 900;
+}
+
+.our-mission-text p{
+  flex-wrap: wrap;
+  margin: 20px;
+  margin-bottom: 0;
+  margin-left: 0;
+}
