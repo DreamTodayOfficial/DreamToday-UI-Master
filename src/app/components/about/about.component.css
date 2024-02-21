@@ -105,7 +105,9 @@
    
     .card {
       border: none;
-      background: transparent;
+      background: #0D0F1E;
+      border-radius: 10%;
+
     }
    
   .card  img{

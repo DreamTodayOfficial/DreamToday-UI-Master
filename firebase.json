@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "dream_today",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
